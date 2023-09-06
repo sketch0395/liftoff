@@ -86,3 +86,19 @@ Here's how it may be structured in a Next.js app.
 └── tsconfig.json
 
 ```
+
+## ShadCN Notes:
+
+Buttons 
+1. Outline utilizes bg-background, and not bg-transparent  
+2. Outline text does not use text-primary  
+3. Outline has no variants 
+4. Ghost does not use text-primary
+
+Radio
+1. No variants for radio
+
+Inputs
+1. Default input does not have placeholder text
+
+

@@ -97,8 +97,14 @@ Buttons
 
 Radio
 1. No variants for radio
+2. Requires "Label" installation and import as well
 
 Inputs
-1. Default input does not have placeholder text
+1. No variants
+2. Default input does not have placeholder text
+2. Requires "Label" installation and import as well
+3. Cursor is default to black when active
+4. Text color defaults to black
+5. Cannot add adornments with inline classnames (might be a me problem)
 
 

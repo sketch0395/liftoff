@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return ( <>
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
+    <main className={`flex min-h-screen flex-col items-center justify-between p-24 `}>
 <h1 className='text-2xl text-secondary font-bold '> Welcome to Liftoff-UI</h1>
 
         <Link href="/primatives/buttons">
@@ -19,6 +18,15 @@ export default function Home() {
         </Link>
         <Link href="/primatives/radiogroup">
             <Button>Radios</Button>
+        </Link>
+        <Link href="/primatives/textarea">
+            <Button>Text Area</Button>
+        </Link>
+        <Link href="/primatives/accordion">
+            <Button>Accordion</Button>
+        </Link>
+        <Link href="/primatives/navmenu">
+            <Button>Navigation Menu</Button>
         </Link>
 
     </main>

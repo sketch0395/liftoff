@@ -19,6 +19,9 @@ export default function Home() {
         <Link href="/primatives/radiogroup">
             <Button>Radios</Button>
         </Link>
+        <Link href="/primatives/checkbox">
+        <Button>Check Box</Button>
+    </Link>
         <Link href="/primatives/textarea">
             <Button>Text Area</Button>
         </Link>
@@ -28,6 +31,10 @@ export default function Home() {
         <Link href="/primatives/navmenu">
             <Button>Navigation Menu</Button>
         </Link>
+        <Link href="/primatives/dropmenu">
+            <Button>Dropdown Menu</Button>
+        </Link>
+
 
     </main>
       </>

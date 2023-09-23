@@ -8,7 +8,7 @@ import {
 export default function myAccordion() {
 return(<>
         <main className='grid grid-cols-4 pt-32'>
-        <div className='col-start-2 col-span-2'>
+        <div className='col-start-2 col-span-2 bg-card'>
     <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>

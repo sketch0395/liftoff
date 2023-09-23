@@ -90,6 +90,7 @@ Here's how it may be structured in a Next.js app.
 ## ShadCN Notes:
 
 Changes to golbal.css
+Global.css file may create a new one under /components/ui folder
 1.     /*Army Yellow Primary*/
    --border: 48 100% 59%;
    --input: 48 100% 59%;
@@ -104,6 +105,9 @@ Changes to golbal.css
 4.     /*Army Dark Green Background App*/
    --background: 120 8% 20%;
    --foreground: 222.2 84% 4.9%;
+
+Navmenu
+1. Navigation menu is broken see github issue 'https://github.com/shadcn-ui/ui/issues/172'
 
 Buttons 
 1. Outline utilizes bg-background, and not bg-transparent  

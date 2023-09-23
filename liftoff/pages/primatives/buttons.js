@@ -1,16 +1,15 @@
 import {Button} from "@/components/ui/button"
-import {Inter} from 'next/font/google'
+
 import {Codepen, Mail} from 'lucide-react'
 
 
 
 
-const inter = Inter({subsets: ['latin']})
 
 export default function ExampleButtons() {
     return (<>
             <main
-                className={`flex min-h-screen flex-col row-auto gap-4 items-center justify-between p-24 ${inter.className}`}>
+                className={`flex min-h-screen flex-col row-auto gap-4 items-center justify-between p-24`}>
                 <h1 className='text-2xl text-primary font-bold'> Buttons</h1>
                 {/*Default Buttons*/}
                 <div className='row-start-2 grid grid-cols-4 gap-4'>

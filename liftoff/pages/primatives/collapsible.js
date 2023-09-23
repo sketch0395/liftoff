@@ -17,7 +17,9 @@ export default function CollapsibleDemo(){
 
     return(<>
         <main className='grid grid-cols-6 pt-32'>
-        <div className='col-start-2'>
+            <h1 className='text-2xl text-primary font-bold col-start-3 text-center col-span-2'> Check Box</h1>
+
+            <div className='col-start-2 bg-card flex'>
             <Collapsible
                 open={isOpen}
                 onOpenChange={setIsOpen}

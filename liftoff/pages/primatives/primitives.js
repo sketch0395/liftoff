@@ -37,6 +37,9 @@ export default function Home() {
                 <Link href="/primatives/tabs">
                     <Button>Tabs</Button>
                 </Link>
+                <Link href="/primatives/collapsible">
+                    <Button>Collapsable</Button>
+                </Link>
 
 
             </main>

@@ -89,6 +89,22 @@ Here's how it may be structured in a Next.js app.
 
 ## ShadCN Notes:
 
+Changes to golbal.css
+1.     /*Army Yellow Primary*/
+   --border: 48 100% 59%;
+   --input: 48 100% 59%;
+   --ring: 48 100% 59%;
+2.     /*Army Light Green Secondary*/
+   --secondary: 120 18% 53%;
+   --secondary-foreground: 0 0% 100%;
+3.     /*Army Yellow Primary*/
+   --primary: 48 100% 59%;
+   /*Army Black*/
+   --primary-foreground: 240 2% 23%;
+4.     /*Army Dark Green Background App*/
+   --background: 120 8% 20%;
+   --foreground: 222.2 84% 4.9%;
+
 Buttons 
 1. Outline utilizes bg-background, and not bg-transparent  
 2. Outline text does not use text-primary  

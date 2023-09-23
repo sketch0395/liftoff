@@ -27,7 +27,7 @@ export default function ExampleButtons() {
                 </div>
                 {/*Destructive Buttons*/}
                 <div className='row-start-2 grid grid-cols-4 gap-4'>
-                    <Button variant='destructive' size="sm">DESTRUCTIVE</Button>
+                    <Button variant='destructive' size="sm" >DESTRUCTIVE</Button>
                     <Button variant='destructive'>DESTRUCTIVE</Button>
                     <Button variant='destructive' size="lg">DESTRUCTIVE</Button>
                     <Button variant='destructive' size="icon"><Codepen className='mx-2 h-4 w-4'/></Button>

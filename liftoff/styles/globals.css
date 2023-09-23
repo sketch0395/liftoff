@@ -4,6 +4,7 @@
  
 @layer base {
   :root {
+    /*Army Dark Green Background App*/
     --background: 120 8% 20%;
     --foreground: 222.2 84% 4.9%;
 
@@ -13,12 +14,12 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /*Army Yellow*/
+    /*Army Yellow Primary*/
     --primary: 48 100% 59%;
     /*Army Black*/
     --primary-foreground: 240 2% 23%;
 
-    /*Army Green*/
+    /*Army Light Green Secondary*/
     --secondary: 120 18% 53%;
     --secondary-foreground: 0 0% 100%;
  
@@ -31,6 +32,7 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
+    /*Army Yellow Primary*/
     --border: 48 100% 59%;
     --input: 48 100% 59%;
     --ring: 48 100% 59%;

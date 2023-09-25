@@ -16,14 +16,15 @@ export default function CollapsibleDemo(){
     }
 
     return(<>
-        <main className='grid grid-cols-6 pt-32'>
-            <h1 className='text-2xl text-primary font-bold col-start-3 text-center col-span-2'> Check Box</h1>
+        <main className='flex flex-col row-auto gap-4 items-center justify-between p-24'>
+            <h1 className='text-2xl text-primary font-bold'> Collapsable Menu</h1>
 
-            <div className='col-start-2 bg-card flex'>
+            <div className='bg-card rounded-md w-1/2'>
+                <div className='flex justify-center gap-4 m-4'>
             <Collapsible
                 open={isOpen}
                 onOpenChange={setIsOpen}
-                className="w-[350px] space-y-2"
+                className="w-1/2 space-y-2"
             >
                 <div className="flex items-center justify-between space-x-4 px-4">
                     <h4 className="text-sm font-semibold">
@@ -48,6 +49,7 @@ export default function CollapsibleDemo(){
                     </div>
                 </CollapsibleContent>
             </Collapsible>
+                </div>
         </div>
         </main>
     </>)

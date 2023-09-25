@@ -89,6 +89,14 @@ Here's how it may be structured in a Next.js app.
 
 ## ShadCN Notes:
 
+Utilizing lucide-react icons
+```bash
+npm install lucide-react
+``` 
+See: 'https://lucide.dev/'
+
+Installed cards component for use in 'Tabs' primitive
+
 Changes to golbal.css
 Global.css file may create a new one under /components/ui folder
 1.     /*Army Yellow Primary*/
@@ -128,3 +136,8 @@ Inputs
 5. Cannot add adornments with inline classnames (might be a me problem)
 
 
+
+What Ronnie did not do
+1. make reactive
+2. darkmode
+3. format code base

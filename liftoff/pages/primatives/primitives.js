@@ -7,9 +7,10 @@ import Link from "next/link";
 
 export default function Home() {
     return ( <>
-            <main className={`flex min-h-screen flex-col items-center justify-between p-24 `}>
-                <h1 className='text-2xl text-secondary font-bold '> Welcome to Liftoff-UI</h1>
-
+            <main className={`flex flex-col row-auto gap-4 items-center justify-between p-24 `}>
+                <h1 className='text-2xl text-primary font-bold '> Welcome to Liftoff-UI</h1>
+<div className='bg-card rounded-md w-1/2'>
+    <div className='flex justify-center  grid-cols-4 gap-4 m-8'>
                 <Link href="/primatives/accordion">
                     <Button>Accordion</Button>
                 </Link>
@@ -22,6 +23,8 @@ export default function Home() {
                 <Link href="/primatives/collapsible">
                 <Button>Collapsable</Button>
             </Link>
+    </div>
+    <div className='flex justify-center  grid-cols-4 gap-4 m-8'>
                 <Link href="/primatives/input">
                     <Button>Inputs</Button>
                 </Link>
@@ -36,13 +39,16 @@ export default function Home() {
                 <Link href="/primatives/navmenu">
                     <Button>Navigation Menu</Button>
                 </Link>
+    </div>
+    <div className='flex justify-center  grid-cols-4 gap-4 m-8'>
                 <Link href="/primatives/dropmenu">
                     <Button>Dropdown Menu</Button>
                 </Link>
                 <Link href="/primatives/tabs">
                     <Button>Tabs</Button>
                 </Link>
-
+</div>
+</div>
 
 
             </main>

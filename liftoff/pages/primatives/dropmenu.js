@@ -1,38 +1,4 @@
-//
-// import {
-//     DropdownMenu,
-//     DropdownMenuContent,
-//     DropdownMenuItem,
-//     DropdownMenuLabel,
-//     DropdownMenuSeparator,
-//     DropdownMenuTrigger,
-// } from "@/components/ui/dropdown-menu"
-//
-//
-// export default function dropMenu(){
-//     return(
-//         <>
-//             <main className='grid grid-cols-6 pt-32'>
-//                 <div className='col-start-2'>
-//                     <DropdownMenu>
-//                         <DropdownMenuTrigger>Open</DropdownMenuTrigger>
-//                         <DropdownMenuContent>
-//                             <DropdownMenuLabel>My Account</DropdownMenuLabel>
-//                             <DropdownMenuSeparator />
-//                             <DropdownMenuItem>Profile</DropdownMenuItem>
-//                             <DropdownMenuItem>Billing</DropdownMenuItem>
-//                             <DropdownMenuItem>Team</DropdownMenuItem>
-//                             <DropdownMenuItem>Subscription</DropdownMenuItem>
-//                         </DropdownMenuContent>
-//                     </DropdownMenu>
-//
-//                 </div>
-//             </main>
-//         </>
-//     )
-// }
-//
-//
+
 
 
 import {
@@ -71,8 +37,11 @@ import {
 export default function DropdownMenuDemo() {
     return ( <>
 
-            <main className='grid grid-cols-6 pt-32'>
-                <div className='col-start-2'>
+            <main
+                className={`flex flex-col row-auto gap-4 items-center justify-between p-24 `}>
+                <h1 className='text-2xl text-primary font-bold'> Dropdown Menu</h1>
+            <div className='bg-card rounded-md w-1/2'>
+                <div className='flex justify-center  grid-cols-4 gap-4 m-8'>
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <Button variant="outline">Open</Button>
@@ -159,6 +128,7 @@ export default function DropdownMenuDemo() {
             </DropdownMenuContent>
         </DropdownMenu>
                 </div>
+            </div>
             </main>
         </>
     )

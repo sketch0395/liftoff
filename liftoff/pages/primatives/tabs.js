@@ -19,8 +19,11 @@ import {
 export default function TabsDemo() {
     return ( <>
 
-            <main className='grid grid-cols-6 pt-32'>
-                <div className='grid-start-2'>
+            <main
+                className={`flex flex-col row-auto gap-4 items-center justify-between p-24 `}>
+                <h1 className='text-2xl text-primary font-bold'> Tabs</h1>
+                <div className='bg-card rounded-md w-1/2'>
+                    <div className='flex justify-center  grid-cols-4 gap-4 m-8'>
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="account" >Account</TabsTrigger>
@@ -73,6 +76,7 @@ export default function TabsDemo() {
                 </Card>
             </TabsContent>
         </Tabs>
+                </div>
                 </div>
             </main>
 
